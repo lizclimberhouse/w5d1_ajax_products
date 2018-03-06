@@ -1,0 +1,9 @@
+<div id="prod-form">
+  <%= form_for @prod do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.label :description %>
+    <%= f.text_field :description %>
+    <%= f.submit nil, class: 'btn' %>
+  <% end %>
+</div>
